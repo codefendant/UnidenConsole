@@ -1,0 +1,2 @@
+C:\Users\SP\Documents\Development\UnidenConsole\UnidenConsole\bin\Release\net8.0\win-x64\publish\UnidenConsole.pdb
+C:\Users\SP\Documents\Development\UnidenConsole\UnidenConsole\bin\Release\net8.0\win-x64\publish\UnidenConsole.exe
