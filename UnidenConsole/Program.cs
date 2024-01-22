@@ -157,7 +157,7 @@ class Program
             {
                 fileWriter.WriteLine("Command,ChannelIndex,Reserved1,Frequency,Reserved2,Reserved3,Delay,Lockout,Priority");
 
-                for (int channelIndex = 1; channelIndex <= 300; channelIndex++)
+                for (int channelIndex = 1; channelIndex <= 500; channelIndex++)
                 {
                     string response = ReadChannelInfo(serialPort, channelIndex);
                     fileWriter.Write(response);

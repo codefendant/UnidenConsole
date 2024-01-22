@@ -22,3 +22,4 @@ C:\Users\SP\Documents\Development\UnidenConsole\UnidenConsole\obj\Debug\net8.0\r
 C:\Users\SP\Documents\Development\UnidenConsole\UnidenConsole\obj\Debug\net8.0\UnidenConsole.pdb
 C:\Users\SP\Documents\Development\UnidenConsole\UnidenConsole\obj\Debug\net8.0\UnidenConsole.genruntimeconfig.cache
 C:\Users\SP\Documents\Development\UnidenConsole\UnidenConsole\obj\Debug\net8.0\ref\UnidenConsole.dll
+c:\Users\SP\Documents\Development\UnidenConsole\UnidenConsole\obj\Debug\net8.0\UnidenConsole.sourcelink.json
