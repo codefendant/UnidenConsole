@@ -130,14 +130,14 @@ Save the changes to the file.
 Example Configuration:
 ```plaintext
 Copy code
-PortName=COM3
-BaudRate=9600
+PortName=COM1
+BaudRate=57600
 Parity=None
 DataBits=8
 StopBits=One
-ReadTimeout=5000
-WriteTimeout=3000
-RadioCommandWait=200
+ReadTimeout=10000
+WriteTimeout=10000
+RadioCommandWait=100
 ```
 
 ## Compatibility
