@@ -20,7 +20,6 @@ This command-line program facilitates the reading and writing of channel informa
 - [Backup and Risk Warning](#backup-and-risk-warning)
 - [Updates](#updates)
 - [License](#license)
-- [Support](#support)
 
 ## Usage Examples
 To read channel information and write to a file: `UnidenConsole.exe read`
@@ -54,7 +53,6 @@ MDL
 MDL,BC125AT
 VER
 VER,Version 1.06.06
-...
 ```
 
 ## Usage
@@ -78,6 +76,69 @@ To publish the application in the TERMINAL: `dotnet publish -c Release -r win-x6
 
 ## Configuration
 A `config.txt` file has been written to the program directory. Modify it to match the COM port of your radio.
+
+Configuration File: config.txt
+The config.txt file is a plain text file located in the same directory as the program (UnidenConsole.exe). It contains key-value pairs, where each line corresponds to a specific setting.
+
+Parameters:
+PortName:
+
+Description: Specifies the name of the COM port used for communication with the Uniden scanner.
+Default Value: COM1
+Example: PortName=COM3
+BaudRate:
+
+Description: Sets the baud rate for serial communication between the program and the scanner.
+Default Value: 57600
+Example: BaudRate=9600
+Parity:
+
+Description: Defines the parity checking scheme for serial communication.
+Default Value: None
+Options: None, Odd, Even
+Example: Parity=None
+DataBits:
+
+Description: Specifies the number of data bits in each character of the serial communication.
+Default Value: 8
+Example: DataBits=7
+StopBits:
+
+Description: Determines the number of stop bits used to indicate the end of a character.
+Default Value: One
+Options: One, Two, None
+Example: StopBits=Two
+ReadTimeout:
+
+Description: Sets the maximum time (in milliseconds) the program will wait for a response from the scanner before considering it a timeout.
+Default Value: 10000 (10 seconds)
+Example: ReadTimeout=5000
+WriteTimeout:
+
+Description: Sets the maximum time (in milliseconds) the program will wait for a command to be written to the scanner before considering it a timeout.
+Default Value: 10000 (10 seconds)
+Example: WriteTimeout=3000
+RadioCommandWait:
+
+Description: Specifies the wait time (in milliseconds) between sending commands to the scanner. Helps avoid potential communication issues.
+Default Value: 100
+Example: RadioCommandWait=200
+Modifying the Configuration:
+Open the config.txt file using a text editor such as Notepad.
+Update the values after the equal sign (=) to customize the settings according to your preferences.
+Save the changes to the file.
+Example Configuration:
+```plaintext
+Copy code
+PortName=COM3
+BaudRate=9600
+Parity=None
+DataBits=8
+StopBits=One
+ReadTimeout=5000
+WriteTimeout=3000
+RadioCommandWait=200
+```
 
 ## Compatibility
 This program was tested on a Uniden BC125A. Ensure compatibility with your specific Uniden scanner model.
