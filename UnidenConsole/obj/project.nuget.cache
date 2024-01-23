@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "C80J0ujTuudlO2PjKhg583leQ6EMEFXjqM8+WVpx0NbGFmOKuf3rtRfqGwrGiOeNr55noReRgquLqeqO7lnh2A==",
+  "dgSpecHash": "vMskMj3/QaJdQtyEz7tQ3fqqSrF5lpRaZM6zIeAXPCwenph43Pc8OKt3UpPgOJctpM8rTbP0BWdMXI9tbEz+aA==",
   "success": true,
   "projectFilePath": "C:\\Users\\SP\\Documents\\Development\\UnidenConsole\\UnidenConsole\\UnidenConsole.csproj",
   "expectedPackageFiles": [
@@ -11,10 +11,7 @@
     "C:\\Users\\SP\\.nuget\\packages\\runtime.native.system.io.ports\\8.0.0\\runtime.native.system.io.ports.8.0.0.nupkg.sha512",
     "C:\\Users\\SP\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\8.0.0\\runtime.osx-arm64.runtime.native.system.io.ports.8.0.0.nupkg.sha512",
     "C:\\Users\\SP\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\8.0.0\\runtime.osx-x64.runtime.native.system.io.ports.8.0.0.nupkg.sha512",
-    "C:\\Users\\SP\\.nuget\\packages\\system.io.ports\\8.0.0\\system.io.ports.8.0.0.nupkg.sha512",
-    "C:\\Users\\SP\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.1\\microsoft.netcore.app.runtime.win-x64.8.0.1.nupkg.sha512",
-    "C:\\Users\\SP\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.1\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.1.nupkg.sha512",
-    "C:\\Users\\SP\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.1\\microsoft.aspnetcore.app.runtime.win-x64.8.0.1.nupkg.sha512"
+    "C:\\Users\\SP\\.nuget\\packages\\system.io.ports\\8.0.0\\system.io.ports.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

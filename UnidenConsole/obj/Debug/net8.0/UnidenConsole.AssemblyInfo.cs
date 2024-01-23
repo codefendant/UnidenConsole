@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UnidenConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1.0+ce675a0d549a6f48b7271edb6b34537bca0c9a60")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1.0+b4ac82e084602cd06be55b3cc79c35a68e93190f")]
 [assembly: System.Reflection.AssemblyProductAttribute("UnidenConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UnidenConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
