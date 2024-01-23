@@ -7,7 +7,7 @@ using System.Reflection;
 
 // Programmer note TO publish application in TERMINAL
 // dotnet publish -c Release -r win-x64 /p:PublishSingleFile=true /p:PublishTrimmed=true
-
+// dotnet publish -c Release -r win-x32 /p:PublishSingleFile=true /p:PublishTrimmed=true
 
 class Program
 {
@@ -375,7 +375,7 @@ class Program
     static void DisplayVersion()
     {
         Assembly assembly = Assembly.GetExecutingAssembly();
-        Version version = assembly.GetName().Version;
+        Version? version = assembly.GetName().Version;
 
         Console.WriteLine($"Application Version: {version}");
     }
