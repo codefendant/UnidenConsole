@@ -7,7 +7,6 @@ using System.Reflection;
 
 // Programmer note TO publish application in TERMINAL
 // dotnet publish -c Release -r win-x64 /p:PublishSingleFile=true /p:PublishTrimmed=true
-// dotnet publish -c Release -r win-x32 /p:PublishSingleFile=true /p:PublishTrimmed=true
 
 class Program
 {
